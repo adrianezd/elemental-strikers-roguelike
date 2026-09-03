@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Elemental Strikers: Roguelike — Fútbol elemental por turnos</title>
+<meta name="description" content="Elemental Strikers es un roguelike de fútbol por turnos: forma tu equipo, sube un bracket de partidos generado al azar y usa ventajas elementales (Fuego, Viento, Tierra, Trueno) para ganar. Gratis, en el navegador, optimizado para móvil.">
+<meta name="keywords" content="roguelike, fútbol, elementos, juego de fútbol, juego por turnos, juego navegador, juego móvil, elemental strikers, juego gratis html5">
+<link rel="canonical" href="https://adrianezd.github.io/elemental-strikers-roguelike/">
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+<link rel="manifest" href="manifest.json">
+<meta name="theme-color" content="#0b1220">
+
+<!-- Open Graph -->
+<meta property="og:title" content="Elemental Strikers: Roguelike">
+<meta property="og:description" content="Roguelike de fútbol por turnos con ventajas elementales. Forma tu equipo, sube el bracket y gana partidos. Juega gratis en el navegador, sin descargas.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://adrianezd.github.io/elemental-strikers-roguelike/">
+<meta property="og:image" content="https://adrianezd.github.io/elemental-strikers-roguelike/favicon.svg">
+
+<!-- Twitter -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Elemental Strikers: Roguelike">
+<meta name="twitter:description" content="Roguelike de fútbol por turnos con ventajas elementales. Forma tu equipo y sube el bracket. Juega gratis en el navegador.">
+<meta name="twitter:image" content="https://adrianezd.github.io/elemental-strikers-roguelike/favicon.svg">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@500;600;700&family=Teko:wght@600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "VideoGame",
+  "name": "Elemental Strikers: Roguelike",
+  "description": "Roguelike de fútbol por turnos: forma tu equipo, sube un bracket de partidos generado al azar y usa ventajas elementales para ganar.",
+  "genre": ["Roguelike", "Sports", "Turn-based strategy"],
+  "applicationCategory": "Game",
+  "gamePlatform": "Web Browser",
+  "url": "https://adrianezd.github.io/elemental-strikers-roguelike/"
+}
+</script>
+</head>
+<body>
+<a class="skip-link" href="#app">Ir al juego</a>
+<header class="site-header">
+  <h1>Elemental Strikers <span class="hl">Roguelike</span></h1>
+  <p class="tagline">Forma tu equipo. Domina los elementos. Conquista el bracket.</p>
+</header>
+
+<main id="app" aria-live="polite">
+  <!-- El juego se renderiza aquí mediante script.js -->
+</main>
+
+<section class="how-to-play" id="como-jugar">
+  <h2>Cómo jugar</h2>
+  <ol>
+    <li><strong>Elige tu capitán:</strong> al empezar una partida se te ofrecen 3 jugadores al azar, cada uno con un elemento (Fuego, Viento, Tierra, Trueno o Aire) y estadísticas propias.</li>
+    <li><strong>Recorre el mapa:</strong> avanza por un camino ramificado con nodos de Partido, Entrenamiento, Fichaje, Descanso y Jefe, generado de forma distinta cada vez.</li>
+    <li><strong>Juega los partidos:</strong> en cada turno elige Tiro, Pase o Jugada Especial. Los elementos se hacen ventaja entre sí como en piedra-papel-tijera: Fuego vence a Viento, Viento a Tierra, Tierra a Trueno y Trueno a Fuego. Aire es neutral frente a todos.
+    </li>
+    <li><strong>Gestiona tu plantilla:</strong> ficha nuevos jugadores (hasta 4), mejora estadísticas en los entrenamientos y descansa para quitar la fatiga.</li>
+    <li><strong>Cuidado con la muerte permanente:</strong> si pierdes un partido, la partida termina ahí. Ganarás Puntos de Leyenda según tu progreso.</li>
+    <li><strong>Progresión entre partidas:</strong> gasta tus Puntos de Leyenda en el Vestuario para desbloquear capitanes iniciales adicionales para tus futuras partidas.</li>
+  </ol>
+</section>
+
+<footer class="site-footer">
+  <p>Proyecto de fan hecho por diversión. No afiliado a ninguna franquicia comercial existente.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

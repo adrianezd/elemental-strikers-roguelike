@@ -67,7 +67,7 @@ function mkCaptain(id, nombre, posicion, tipo, tiro, pase, defensa, especial, de
 }
 
 var MAX_SQUAD = 4;
-var MATCH_TURNS = 6; // 3 ataques para cada equipo
+var MATCH_TURNS = 10; // 5 ataques para cada equipo (antes 3; con 3 nunca daba tiempo a llenar el medidor especial)
 var LEGEND_PER_NODE = 4;
 var LEGEND_PER_MATCH = 10;
 var LEGEND_PER_BOSS = 30;

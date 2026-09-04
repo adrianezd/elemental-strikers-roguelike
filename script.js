@@ -133,10 +133,10 @@ function generateOpponentSquad(depth, isBoss) {
   for (var i = 0; i < 4; i++) {
     var p = generateRandomPlayer(depth);
     if (isBoss) {
-      p.tiro = clamp(p.tiro + rand(10, 18), 15, 99);
-      p.pase = clamp(p.pase + rand(10, 18), 15, 99);
-      p.defensa = clamp(p.defensa + rand(10, 18), 15, 99);
-      p.especial = clamp(p.especial + rand(12, 20), 15, 99);
+      p.tiro = clamp(p.tiro + rand(2, 6), 15, 99);
+      p.pase = clamp(p.pase + rand(2, 6), 15, 99);
+      p.defensa = clamp(p.defensa + rand(2, 6), 15, 99);
+      p.especial = clamp(p.especial + rand(3, 8), 15, 99);
     }
     squad.push(p);
   }
